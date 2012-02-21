@@ -49,3 +49,4 @@ pkg
 
 tmp/**
 Gemfile.lock
+node/**

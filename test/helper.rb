@@ -1,7 +1,4 @@
 require 'rubygems'
-require 'webmachine'
-require 'nokogiri'
-require 'ripple'
 require 'minitest/unit'
 require 'minitest/mock'
 
@@ -9,11 +6,9 @@ require 'minitest/mock'
 ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../../Gemfile', __FILE__)
 require 'bundler/setup' if File.exists?(ENV['BUNDLE_GEMFILE'])
 
-require File.expand_path('../../lib/instrument_document', __FILE__)
-require File.expand_path('../../lib/intraday_parser', __FILE__)
-require File.expand_path('../../lib/daily_parser', __FILE__)
-require File.expand_path('../../lib/funny_bone', __FILE__)
-require File.expand_path('../../lib/groper', __FILE__)
-require File.expand_path('../../lib/string/fiscal_quarter', __FILE__)
+require File.expand_path('../../lib/director', __FILE__)
+require File.expand_path('../../lib/frame', __FILE__)
+
+ENVIRONMENT = :test
 
 MiniTest::Unit.autorun
