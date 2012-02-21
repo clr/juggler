@@ -1,0 +1,2 @@
+curl --silent -v {{RIAK_URL}}/buckets/training/keys/second-object -X PUT -H "content-type: text/plain" -d "My second key"
+curl --silent -v {{RIAK_URL}}/buckets/training/props

@@ -1,0 +1,1 @@
+curl --silent -v {{RIAK_URL}}/buckets/training/keys/my-first-object -X PUT -H "content-type: text/plain" -d "My first key"

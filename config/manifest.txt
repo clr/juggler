@@ -1,0 +1,5 @@
+download_precompiled_riak.txt
+first_key_put.txt
+first_key_get.txt
+first_key_delete.txt
+first_props.txt

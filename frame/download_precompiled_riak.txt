@@ -1,0 +1,4 @@
+cd {{TEMP_DIR}}
+curl -O {{DOWNLOAD_FILE}}
+tar xzvf {{ZIP_FILE}} 
+rm {{ZIP_FILE}}
